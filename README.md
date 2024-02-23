@@ -1,7 +1,8 @@
 # Reto 2 // Diego Arévalo
 Solución del reto dos de Programación Orientada a Objetos
 ## Diagrama de Clases UML para un gimnasio.
-'''mermaid
+**Relación usuario - gimnasio**
+```mermaid
 classDiagram
     Usuario --> Gimnasio
     class Gimnasio{
@@ -14,6 +15,6 @@ classDiagram
     class Usuario{
         +pay()
     }
-'''
+```
 💎
 > :shipit: Diego Alejandro Arévalo Guevara. 20 de febrero de 2024.
