@@ -8,7 +8,6 @@ classDiagram
     class Gym{
       +Name
       +Direction
-      +Monthly payment
       +Machines
       +collect_money()
     }
@@ -16,5 +15,6 @@ classDiagram
         +pay()
     }
 ```
+**Relación usuario - gimnasio**
 💎
 > :shipit: Diego Alejandro Arévalo Guevara. 20 de febrero de 2024.
