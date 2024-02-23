@@ -4,15 +4,15 @@ Solución del reto dos de Programación Orientada a Objetos
 **Relación usuario - gimnasio**
 ```mermaid
 classDiagram
-    Usuario --> Gimnasio
-    class Gimnasio{
+    User --> Gym
+    class Gym{
       +Name
       +Direction
       +Monthly payment
       +Machines
       +collect_money()
     }
-    class Usuario{
+    class User{
         +pay()
     }
 ```
