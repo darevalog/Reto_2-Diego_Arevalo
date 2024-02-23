@@ -15,6 +15,34 @@ classDiagram
         +pay()
     }
 ```
-**Relación usuario - gimnasio**
+**Relación gimnasio - partes gimnasio**
+```mermaid
+classDiagram
+    User --> Gym
+    Gym *-- Name
+    Gym *-- Direction
+    Gym *-- Machines
+
+    class Gym{
+      +Name
+      +Direction
+      +Machines
+      +collect_money()
+    }
+    class User{
+        +pay()
+    }
+    class Name{
+        +Gym gym
+    }
+    class Direction{
+        +Gym gym
+    }
+    class Machines{
+        +Gym gym
+        +Machines types
+    }
+```
+**Relación maquinas - usuario**
 💎
 > :shipit: Diego Alejandro Arévalo Guevara. 20 de febrero de 2024.
