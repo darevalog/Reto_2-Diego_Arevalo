@@ -43,6 +43,64 @@ classDiagram
         +Machines types
     }
 ```
-**Relación maquinas - usuario**
+**Relación entre máquinas**
+```mermaid
+classDiagram
+    treadmill --|> Machines
+    elliptical --|> Machines
+    kettlebells --|> Machines
+    battle_ropes --|> Machines
+    chest_press --|> Machines
+    dumbbells --|> Machines
+    leg_press --|> Machines
+    bench_press --|> Machines
+    weight_bench --|> Machines
+    chest_pull --|> Machines    
+
+    class Machines{
+        +Gym gym
+        +Machines types
+    }
+    class treadmill{
+        +form
+        +to_exercise(gym)
+    }
+    class elliptical{
+        +form
+        +to_exercise(gym)
+    }
+    class kettlebells{
+        +form
+        +to_exercise(gym)
+    }
+    class battle_ropes{
+        +form
+        +to_exercise(gym)
+    }
+    class chest_press{
+        +form
+        +to_exercise(gym)
+    }
+    class dumbbells{
+        +form
+        +to_exercise(gym)
+    }
+    class leg_press{
+        +form
+        +to_exercise(gym)
+    }
+    class bench_press{
+        +form
+        +to_exercise(gym)
+    }
+    class weight_bench{
+        +form
+        +to_exercise(gym)
+    }
+    class chest_pull{
+        +form
+        +to_exercise(gym)
+    }
+```
 💎
 > :shipit: Diego Alejandro Arévalo Guevara. 20 de febrero de 2024.
