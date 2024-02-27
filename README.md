@@ -102,5 +102,5 @@ classDiagram
         +to_exercise(gym)
     }
 ```
-💎
-> :shipit: Diego Alejandro Arévalo Guevara. 20 de febrero de 2024.
+
+> :shipit: Diego Alejandro Arévalo Guevara. February 20, 2024.
